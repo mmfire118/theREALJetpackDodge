@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19679F3A1F17DB8F003737D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19679F391F17DB8F003737D4 /* AppDelegate.swift */; };
+		19679F3C1F17DB8F003737D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19679F3B1F17DB8F003737D4 /* GameScene.sks */; };
+		19679F3E1F17DB8F003737D4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19679F3D1F17DB8F003737D4 /* Actions.sks */; };
+		19679F401F17DB8F003737D4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19679F3F1F17DB8F003737D4 /* GameScene.swift */; };
+		19679F4A1F17DB8F003737D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19679F481F17DB8F003737D4 /* LaunchScreen.storyboard */; };
+		199761F61F2259D4000A22CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199761F51F2259D4000A22CD /* Main.storyboard */; };
+		199761F81F2259F9000A22CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199761F71F2259F9000A22CD /* Assets.xcassets */; };
+		199761FA1F225A15000A22CD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199761F91F225A15000A22CD /* GameViewController.swift */; };
+		199761FC1F225AA9000A22CD /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 199761FB1F225AA9000A22CD /* song.mp3 */; };
+		56FF9BAF1F2115FC00A2927F /* Swift + Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FF9BAE1F2115FC00A2927F /* Swift + Gif.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19679F361F17DB8F003737D4 /* Jetpack Dodge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jetpack Dodge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19679F391F17DB8F003737D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19679F3B1F17DB8F003737D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		19679F3D1F17DB8F003737D4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		19679F3F1F17DB8F003737D4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		19679F491F17DB8F003737D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19679F4B1F17DB8F003737D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199761F51F2259D4000A22CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		199761F71F2259F9000A22CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		199761F91F225A15000A22CD /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		199761FB1F225AA9000A22CD /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		56FF9BAE1F2115FC00A2927F /* Swift + Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift + Gif.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19679F331F17DB8F003737D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19679F2D1F17DB8F003737D4 = {
+			isa = PBXGroup;
+			children = (
+				19679F381F17DB8F003737D4 /* Jetpack Dodge */,
+				19679F371F17DB8F003737D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19679F371F17DB8F003737D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19679F361F17DB8F003737D4 /* Jetpack Dodge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19679F381F17DB8F003737D4 /* Jetpack Dodge */ = {
+			isa = PBXGroup;
+			children = (
+				19679F391F17DB8F003737D4 /* AppDelegate.swift */,
+				19679F3B1F17DB8F003737D4 /* GameScene.sks */,
+				19679F3D1F17DB8F003737D4 /* Actions.sks */,
+				199761F91F225A15000A22CD /* GameViewController.swift */,
+				19679F3F1F17DB8F003737D4 /* GameScene.swift */,
+				199761F51F2259D4000A22CD /* Main.storyboard */,
+				199761F71F2259F9000A22CD /* Assets.xcassets */,
+				56FF9BAE1F2115FC00A2927F /* Swift + Gif.swift */,
+				19679F481F17DB8F003737D4 /* LaunchScreen.storyboard */,
+				19679F4B1F17DB8F003737D4 /* Info.plist */,
+				56FF9BB01F21304800A2927F /* Music */,
+			);
+			path = "Jetpack Dodge";
+			sourceTree = "<group>";
+		};
+		56FF9BB01F21304800A2927F /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				199761FB1F225AA9000A22CD /* song.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19679F351F17DB8F003737D4 /* Jetpack Dodge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19679F4E1F17DB8F003737D4 /* Build configuration list for PBXNativeTarget "Jetpack Dodge" */;
+			buildPhases = (
+				19679F321F17DB8F003737D4 /* Sources */,
+				19679F331F17DB8F003737D4 /* Frameworks */,
+				19679F341F17DB8F003737D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jetpack Dodge";
+			productName = "Jetpack Dodge";
+			productReference = 19679F361F17DB8F003737D4 /* Jetpack Dodge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19679F2E1F17DB8F003737D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Pines;
+				TargetAttributes = {
+					19679F351F17DB8F003737D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6LB32682H9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19679F311F17DB8F003737D4 /* Build configuration list for PBXProject "Jetpack Dodge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19679F2D1F17DB8F003737D4;
+			productRefGroup = 19679F371F17DB8F003737D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19679F351F17DB8F003737D4 /* Jetpack Dodge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19679F341F17DB8F003737D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199761F61F2259D4000A22CD /* Main.storyboard in Resources */,
+				19679F3C1F17DB8F003737D4 /* GameScene.sks in Resources */,
+				19679F4A1F17DB8F003737D4 /* LaunchScreen.storyboard in Resources */,
+				199761F81F2259F9000A22CD /* Assets.xcassets in Resources */,
+				19679F3E1F17DB8F003737D4 /* Actions.sks in Resources */,
+				199761FC1F225AA9000A22CD /* song.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19679F321F17DB8F003737D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199761FA1F225A15000A22CD /* GameViewController.swift in Sources */,
+				19679F401F17DB8F003737D4 /* GameScene.swift in Sources */,
+				56FF9BAF1F2115FC00A2927F /* Swift + Gif.swift in Sources */,
+				19679F3A1F17DB8F003737D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19679F481F17DB8F003737D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19679F491F17DB8F003737D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19679F4C1F17DB8F003737D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19679F4D1F17DB8F003737D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19679F4F1F17DB8F003737D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LB32682H9;
+				INFOPLIST_FILE = "Jetpack Dodge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Upperline-Code.Jetpack-Dodge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19679F501F17DB8F003737D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LB32682H9;
+				INFOPLIST_FILE = "Jetpack Dodge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Upperline-Code.Jetpack-Dodge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19679F311F17DB8F003737D4 /* Build configuration list for PBXProject "Jetpack Dodge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19679F4C1F17DB8F003737D4 /* Debug */,
+				19679F4D1F17DB8F003737D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19679F4E1F17DB8F003737D4 /* Build configuration list for PBXNativeTarget "Jetpack Dodge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19679F4F1F17DB8F003737D4 /* Debug */,
+				19679F501F17DB8F003737D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19679F2E1F17DB8F003737D4 /* Project object */;
+}
